@@ -1,4 +1,5 @@
 demo
 ====
 
-test node.js mongodb nodeunit
+collection of some test tasks
+
