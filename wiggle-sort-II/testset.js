@@ -50,8 +50,10 @@ function run(wiggleSort) {
         });
         it('should return push MinMax pairs with eq neibers smart swap', function () {
             var nums = [4, 5, 5, 5, 5, 6, 6, 6];
+            var len = nums.length;
             wiggleSort(nums);
             assert.ok(isValidWiddleSort(nums));
+            assert.equals(nums.length, len);
         });
     });
 }

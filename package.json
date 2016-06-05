@@ -1,8 +1,8 @@
 {
-  "name": "wiggle-sort-2",
-  "version": "0.0.1",
-  "description": "demo\r ====",
-  "main": "index.js",
+  "name": "demo",
+  "version": "0.0.2",
+  "description": "examples",
+  "main": "",
   "devDependencies": {
     "assert": "^1.3.0",
     "mocha": "^2.4.5"
@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/safonovilya/demo.git"
+    "url": "https://github.com/safonovilya/demo.git"
   },
-  "author": "",
+  "author": "Ilya Safonov",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/safonovilya/demo/issues"
   },
-  "homepage": "https://github.com/safonovilya/demo#readme"
+  "homepage": "https://github.com/safonovilya/demo"
 }

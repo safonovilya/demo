@@ -31,8 +31,11 @@ var wiggleSort = function(nums) {
     }
 
     sortArr(newArr);
-    nums = Array.prototype.concat.apply([], newArr);
+    var arr = Array.prototype.concat.apply([], newArr);
     console.log(nums);
+    for(var i = 0; i < arr.length; i++) {
+        nums[i] = arr[i];
+    }
 };
 
 
@@ -47,4 +50,4 @@ function sortArr(newArr){
     })
 }
 
-exports.wiggleSort = wiggleSort;
+module.exports = wiggleSort;
